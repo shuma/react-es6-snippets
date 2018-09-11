@@ -1,0 +1,14 @@
+{
+  "Functional Stateless": {
+    "prefix": "fsc",
+    "body": [
+      "import react from 'react';",
+      "",
+      "const $1 = () => {",
+      "\treturn($2);",
+      "}",
+      "export default $1;"
+    ],
+    "description": "Functional Stateless Component"
+  }
+}
