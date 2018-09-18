@@ -1,14 +1,36 @@
 {
-  "Functional Stateless": {
+  "Import React": {
+    "prefix": "imr",
+    "body": ["import React from 'react';"],
+    "description": "Import React"
+  },
+  "Import React, { Component }": {
+    "prefix": "imrc",
+    "body": ["import React, { Component } from 'react';"],
+    "description": "Import React, { Component }"
+  },
+  "Functional Stateless Component": {
     "prefix": "fsc",
     "body": [
       "import react from 'react';",
       "",
-      "const $1 = () => {",
-      "\treturn($2);",
-      "}",
+      "const $1 = () => ",
+      "\t$2;",
+      "",
       "export default $1;"
     ],
-    "description": "Functional Stateless Component"
+    "description": "Functional Stateless Component "
+  },
+  "Functional Stateless Component with props": {
+    "prefix": "fscprop",
+    "body": [
+      "import react from 'react';",
+      "",
+      "const $1 = ({$2}) => ",
+      "\t$3;",
+      "",
+      "export default $1;"
+    ],
+    "description": "Functional Stateless Component with props"
   }
 }
