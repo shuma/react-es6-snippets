@@ -25,6 +25,7 @@
     "prefix": "fscprop",
     "body": [
       "import react from 'react';",
+      "import PropTypes from 'prop-types';",
       "",
       "const $1 = ({$2}) => ",
       "\t$3;",

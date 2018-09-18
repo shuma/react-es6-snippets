@@ -1,7 +1,6 @@
-import React from "react";
+import react from "react";
+import PropTypes from "prop-types";
 
-const Button = () => {
-  return <div />;
-};
+const Button = ({ text }) => <button>{text}</button>;
 
 export default Button;
